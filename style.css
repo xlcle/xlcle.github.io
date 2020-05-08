@@ -79,7 +79,6 @@ body {
   background: var(--bg);
   color: var(--main);
   line-height: 1.5;
-  /* font-family: "merriweather"; */
   font-family: "fira"
 }
 p {
