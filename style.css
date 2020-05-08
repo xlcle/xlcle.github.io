@@ -1,4 +1,3 @@
-/* Global variables for changing colours across the site */
 :root {
   --accent: #226997;
   --main: #333;
@@ -7,7 +6,6 @@
   --border: #e6e6e6;
   --bg: #fff;
 }
-/* Make the website responsive */
 @media screen and (max-width: 100%) {
   .main,
   .header,
@@ -28,7 +26,6 @@
   max-width: 800px;
   margin: 0 auto;
 }
-/* Format the header */
 p.menu {
   display: inline-block;
   float: right;
@@ -78,15 +75,12 @@ a.sitelogo:active {
   text-decoration: none;
   color: var(--main);
 }
-/* Format the main body text */
 body {
   background: var(--bg);
   color: var(--main);
   line-height: 1.5;
-  /* font-family: "merriweather"; */
   font-family: "fira"
 }
-/* Typography tweaks */
 p {
   margin-bottom: 1em;
   font-size: 1.1em;
@@ -151,7 +145,6 @@ var {
   line-height: 1;
   padding: .1rem .2rem;
 }
-/* Format the images */
 img {
   max-width: 100%;
   height: auto;
@@ -161,7 +154,6 @@ img.home-banner {
   max-width: 100%;
   height: auto;
 }
-/* Format hyperlinks & buttons */
 a,
 a:visited {
   color: var(--accent);
@@ -190,7 +182,6 @@ a:active {
   color: var(--main);
   text-decoration: none;
 }
-/* Format the footer */
 .footer {
   margin-top: 6em;
   text-align: center;
